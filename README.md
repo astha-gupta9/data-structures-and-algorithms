@@ -12,4 +12,4 @@
 
 | Topic  | Solved |
 | ------ | ------ |
-| Arrays | 5      |
+| Arrays | 7      |
