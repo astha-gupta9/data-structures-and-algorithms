@@ -10,6 +10,7 @@
 
 ## 🚀 Progress
 
-| Topic  | Solved |
-| ------ | ------ |
-| Arrays | 7      |
+| Topic   | Solved |
+| ------  | ------ |
+| Arrays  | 8      |
+| Strings | 1      |
