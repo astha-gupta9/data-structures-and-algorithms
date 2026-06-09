@@ -12,5 +12,5 @@
 
 | Topic   | Solved |
 | ------  | ------ |
-| Arrays  | 9      |
-| Strings | 2      |
+| Arrays  | 11      |
+| Strings | 4      |
