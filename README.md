@@ -12,6 +12,6 @@
 
 | Topic   | Solved |
 | ------  | ------ |
-| Arrays  | 12      |
+| Arrays  | 13      |
 | Strings | 5      |
-| Linked List | 2      |
+| Linked List | 3      |
