@@ -14,5 +14,5 @@
 | ------  | ------ |
 | Arrays  | 17      |
 | Strings | 5      |
-| Linked List | 4      |
+| Linked List | 5      |
 | Recursion | 1      |
