@@ -10,39 +10,49 @@ import java.util.List;
 
 public class SpiralMatrix {
     public List<Integer> spiralOrder(int[][] matrix) {
-        int m = matrix.length, n = matrix[0].length;
-        
+
+        // Row and col ptrs tracking spiral traversal
+        int stRow = 0;
+        int endRow = matrix.length - 1;
+        int stCol = 0;
+        int endCol = matrix[0].length - 1;
+
+        // to store spiral order of matrix
         List<Integer> result = new ArrayList<>();
 
-        int startRow = 0, endRow = m - 1;
-        int startCol = 0, endCol = n - 1;
-        while (startRow <= endRow && startCol <= endCol) {
+        // traverse matrix
+        while (stRow <= endRow && stCol <= endCol) {
 
-            for (int i = startCol; i <= endCol; i++) {
-                result.add(matrix[startRow][i]);
+            // top row of current loop
+            for (int i = stCol; i <= endCol; i++) {
+                result.add(matrix[stRow][i]);
             }
-            startRow++;
+            stRow++;
 
-            for (int i = startRow; i <= endRow; i++) {
+            // right col of current loop
+            for (int i = stRow; i <= endRow; i++) {
                 result.add(matrix[i][endCol]);
             }
             endCol--;
 
-            if (startRow <= endRow) {
-                for (int i = endCol; i >= startCol; i--) {
-                    result.add(matrix[endRow][i]);
-                }
-                endRow--;
+            // avoid repeating elements in case of rectangular matrix
+            if (stRow > endRow || stCol > endCol) {
+                break;
             }
 
-            if (startCol <= endCol) {
-                for (int i = endRow; i >= startRow; i--) {
-                    result.add(matrix[i][startCol]);
-                }
-                startCol++;
+            // bottom row of current loop
+            for (int i = endCol; i >= stCol; i--) {
+                result.add(matrix[endRow][i]);
             }
+            endRow--;
+
+            // left col of current loop
+            for (int i = endRow; i >= stRow; i--) {
+                result.add(matrix[i][stCol]);
+            }
+            stCol++;
         }
 
-        return result;
+        return result; // result
     }
 }
