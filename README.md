@@ -12,8 +12,8 @@
 
 | Topic   | Solved |
 | ------  | ------ |
-| Arrays  | 18      |
-| Strings | 5      |
+| Arrays  | 20      |
+| Strings | 6      |
 | Linked List | 5      |
 | Recursion | 1      |
 | Sliding Window & Two Pointers | 1      |
