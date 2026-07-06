@@ -12,7 +12,7 @@
 
 | Topic   | Solved |
 | ------  | ------ |
-| Arrays  | 20      |
+| Arrays  | 21      |
 | Strings | 6      |
 | Linked List | 5      |
 | Recursion | 1      |
