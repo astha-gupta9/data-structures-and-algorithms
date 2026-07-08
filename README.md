@@ -7,6 +7,11 @@
 ## 📝 Topics Covered
 
 - Arrays
+- Binary Search
+- Strings
+- Linked List
+- Recursion
+- Sliding Window & Two Pointers
 
 ## 🚀 Progress
 
