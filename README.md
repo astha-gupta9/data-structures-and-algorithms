@@ -18,7 +18,7 @@
 | Topic   | Solved |
 | ------  | ------ |
 | Arrays  | 21      |
-| Binary Search  | 8      |
+| Binary Search  | 9      |
 | Strings | 6      |
 | Linked List | 5      |
 | Recursion | 1      |
